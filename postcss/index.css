@@ -1,0 +1,6 @@
+:root{
+    --globalColor:red
+}
+div{
+    background:var(--globalColor)
+}

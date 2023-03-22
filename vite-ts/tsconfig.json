@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node", //使用node_modules中的包不会报错
+        "skipLibCheck":true,//是否跳过node_modules目录的检查
+        "module":"ESNext", //生成代码的模板标准
+        "lib":["ES2017","DOM"],
+        "allowSyntheticDefaultImports":true
+    },
+    "exclude": ["node_modules"] 
+}
